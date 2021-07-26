@@ -38,4 +38,8 @@ Route::prefix('mypage')
          Route::post('edit-profile', 'ProfileController@editProfile')->name('mypage.edit-profile');
          Route::get('bought-items', 'BoughtItemsController@showBoughtItems')->name('mypage.bought-items');
          Route::get('sold-items', 'SoldItemsController@showSoldItems')->name('mypage.sold-items');
-     });
+         Route::get('vuejs', 'VuejsController@showVuejs')->name('mypage.vuejs');
+});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

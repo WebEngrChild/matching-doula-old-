@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                             <div class="dropdown-divider"></div>
-                            
+
                             <a class="dropdown-item" href="{{ route('sell') }}">
                                 <i class="fas fa-camera text-left" style="width: 30px"></i>商品を出品する
                             </a>
@@ -84,6 +84,10 @@
                             </a>
                             <a class="dropdown-item" href="{{ route('mypage.edit-profile') }}">
                                 <i class="far fa-address-card text-left" style="width: 30px"></i>プロフィール編集
+                            </a>
+
+                            <a class="dropdown-item" href="{{ route('mypage.vuejs') }}">
+                                <i class="far fa-address-card text-left" style="width: 30px"></i>vuejs
                             </a>
 
                             <a class="dropdown-item" href="{{ route('logout') }}"
